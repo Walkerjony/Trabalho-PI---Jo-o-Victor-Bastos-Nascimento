@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&display=swap');
+ 
+body{
+    font-family: 'Encode Sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    color: #666565;
+    background: #E1DEDE;
+    padding: 3.2em 0;
+    text-align: center;
+    border: solid 2px #777777;
+    width: 100%;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    padding: 3.2em;
+    width: 100%;
+    background-color: black;
+    color: greenyellow;
+}
+
+.primary{
+    width: 30%;
+    font-size: 1.2em;
+    text-align: center;
+    border-bottom: solid 2px greenyellow;
+    border-radius: 4px;
+    padding: 2.2em;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    padding: 3.2em;
+    width: 100%;
+    background-color: #581845;
+    color: white;
+}
+
+.secondary{
+    text-align: center;
+    width: 30%;
+    font-size: 1.2em;
+    border-bottom: solid 2px white;
+    border-radius: 4px;
+    padding: 2.2em;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    padding: 3.2em;
+    width: 100%;
+    background-color:#0a5ba7;
+    color: #e9d415;
+}
+
+.tertiary{
+    width: 30%;
+    font-size: 1.2em;
+    text-align: center;
+    border-bottom: solid 2px #e9d415;
+    border-radius: 4px;
+    padding: 2.2em;
+}
+
+
+.btn1{
+    background-color: transparent;
+    color: greenyellow;
+    border: solid 1px greenyellow;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.btn3{
+    background-color: transparent;
+    color: #e9d415 ;
+    border: solid 1px #e9d415;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    padding: 3.2em;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+    width: 30%;
+    margin-left: 30%;
+}

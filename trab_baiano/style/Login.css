@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 150px;
+}
+
+.login-container{
+   display: flex;
+   justify-content: center;
+   border-radius: 5px;
+   border: 3px solid black;
+   padding: 30px;
+   text-align: center;
+   font-family: 'Encode Sans', sans-serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type=submit] {
+    width: 100%;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #228dcb;
+    color: white;
+    border: none;
+  }
+  
